@@ -1,0 +1,28 @@
+
+
+.contheading{
+    /* background-color: beige; */
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.Newscont{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 100%;
+   width: 100%;
+   /* background-color: aqua; */
+   margin-bottom: 30px;
+  
+
+}
+
+.btn{
+    background-color: brown;
+    width: 100px;
+    height:100px
+}

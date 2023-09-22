@@ -5,7 +5,13 @@
 .heading{
   padding: 10px 20px;
   font-size: 50px;
-  background-color:rgb(128, 152, 231);
+  background-color:rgb(40, 88, 243);
+}
+
+.upperNav{
+  height: 60px;
+  /* background-color: whitesmoke; */
+  border: 1px solid black;
 }
 .container{
   border:  2px solid black;
@@ -13,4 +19,48 @@
   display: flex;
   min-height: 100vh;
  max-height: auto;
+}
+
+.nesside{
+  height: 100vh;
+  width: 100%;
+  /* background-color: aquamarine; */
+  background-color: rgb(128, 152, 231);
+  overflow: auto;
+  /* position: relative; */
+  /* display: flex; */
+  flex-direction: column;
+  /* padding-bottom: -10px; */
+
+}
+::-webkit-scrollbar{
+  display: block;
+}
+
+
+.side{
+  overflow: auto;
+  height: 100vh;
+  /* display: grid; */
+  /* align-self: center; */
+  border: 1px solid black;
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+.cont-card{
+  margin-bottom: 10px;
+}
+
+
+.More-news{
+  padding: 10px 40px;
+  margin-bottom: 30px;
+  border: 1px solid gray;
+border-radius: 10px;
+font-size: large;
+font-weight: bold;
+cursor: pointer;
 }
